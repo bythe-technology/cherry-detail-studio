@@ -20,7 +20,7 @@ export function Countdown() {
   if (phase === 'after') return <p className="countdown-message">A Cherry já está de portas abertas. Agende sua visita.</p>;
   if (phase === 'during') return <p className="countdown-message">Nossa inauguração está acontecendo. Esperamos você!</p>;
   const time = remainingTime(now, start);
-  return <div className="countdown" role="timer" aria-label={`${time.days} dias, ${time.hours} horas e ${time.minutes} minutos para a inauguração`}>
-    {[['dias', time.days], ['horas', time.hours], ['min', time.minutes], ['seg', time.seconds]].map(([label, value]) => <div className="countdown-unit" key={label}><strong>{String(value).padStart(2, '0')}</strong><span>{label}</span></div>)}
-  </div>;
+  return <div className="launch-clock"><p className="launch-clock-status"><span aria-hidden="true"/>A inauguração está chegando</p><div className="countdown" role="timer" aria-live="off" aria-label={`${time.days} dias, ${time.hours} horas e ${time.minutes} minutos para a inauguração`}>
+    {[['dias', time.days], ['horas', time.hours], ['min', time.minutes], ['seg', time.seconds]].map(([label, value]) => <div className={`countdown-unit ${label === 'seg' ? 'countdown-seconds' : ''}`} key={label}><strong><span className="countdown-value" key={value}>{String(value).padStart(2, '0')}</span></strong><span>{label}</span></div>)}
+  </div><p className="launch-clock-footnote">31 de outubro · das 15h às 17h</p></div>;
 }

@@ -22,3 +22,10 @@ Site editorial para estética automotiva premium em Jacupiranga. O cuidado em ca
 - Símbolo C permitido somente nos ícones do navegador/dispositivo.
 - Header flutuante fixo com margens, cantos arredondados e menu móvel com suporte a teclado e Escape. Esta é uma preferência explícita do usuário e prevalece sobre a regra de header plano da skill.
 - Footer com chamada de contato, logo oficial, endereço e horários; tipografia Manrope e informações compactas.
+
+## Imagens recortadas e movimento
+- Loja com alpha transparente, sem céu, rua ou entorno, iluminação dourada e flutuação de 12 px.
+- Kit ilustrativo de produtos e ferramentas sem marcas, recortado em WebP.
+- Movimento premium: curva .2,.7,.2,1; entradas de 650 ms, números de 450 ms, flutuação lenta.
+- Controle global de pausa e preferência reduced-motion; conteúdo continua legível sem JavaScript.
+- Contador tem urgência baseada na data real, sem vagas ou promoções fictícias.
