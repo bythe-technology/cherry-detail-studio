@@ -29,3 +29,11 @@ Site editorial para estética automotiva premium em Jacupiranga. O cuidado em ca
 - Movimento premium: curva .2,.7,.2,1; entradas de 650 ms, números de 450 ms, flutuação lenta.
 - Controle global de pausa e preferência reduced-motion; conteúdo continua legível sem JavaScript.
 - Contador tem urgência baseada na data real, sem vagas ou promoções fictícias.
+
+## Alterações solicitadas pelo cliente — vigentes
+- Agendamento exclusivamente pelo WhatsApp; botões verdes com ícone oficial, ação no header e botão flutuante persistente.
+- Instagram com ícone e link do perfil pessoal de Sandro Ramos: https://www.instagram.com/sandro_ramoos_/.
+- Inauguração mantida como mensagem institucional, sem data, horário de evento, convite público ou contador.
+- Fachada removida da interface; espaço ocupado pelo passo a passo real de leva e traz em Jacupiranga.
+- Textos de higienização e lavagem premium detalhados; sem promessas absolutas de eliminação de microrganismos ou recuperação do estado de novo.
+- Favicon atualizado para composição completa fiel à logo oficial.

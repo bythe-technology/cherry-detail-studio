@@ -2,12 +2,14 @@ import type { Metadata, Viewport } from 'next';
 import { business } from '@/lib/content';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { FloatingWhatsApp } from '@/components/ContactButton';
 import { MotionLayer } from '@/components/MotionLayer';
 import './globals.css';
 import './studio.css';
 import './refinement.css';
 import './brand-refresh.css';
 import './motion.css';
+import './client-revision.css';
 import { Manrope } from 'next/font/google';
 
 const manrope = Manrope({ subsets: ['latin'], display: 'swap', variable: '--font-manrope' });
@@ -24,5 +26,5 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { themeColor: '#0b0b0b' };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="pt-BR" className={manrope.variable}><body><a className="skip-link" href="#conteudo">Pular para o conteúdo</a><SiteHeader/><main id="conteudo">{children}</main><MotionLayer/><SiteFooter/></body></html>;
+  return <html lang="pt-BR" className={manrope.variable}><body><a className="skip-link" href="#conteudo">Pular para o conteúdo</a><SiteHeader/><main id="conteudo">{children}</main><MotionLayer/><SiteFooter/><FloatingWhatsApp/></body></html>;
 }
