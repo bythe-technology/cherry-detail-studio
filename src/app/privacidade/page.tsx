@@ -1,0 +1,7 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { business } from '@/lib/content';
+
+export const metadata: Metadata = { title: 'Privacidade', description: 'Informações de privacidade do site da Cherry Detail Studio.', alternates: { canonical: '/privacidade' } };
+
+export default function PrivacyPage() { return <><section className="page-hero"><div className="shell"><p className="breadcrumb"><Link href="/">Início</Link> / Privacidade</p><h1>Privacidade</h1><p>Como funciona o contato pelo site da Cherry Detail Studio.</p></div></section><section className="detail-content"><div className="shell privacy-content"><h2>Contato e agendamento</h2><p>Este site não recebe formulários nem armazena dados enviados pelo visitante. Ao selecionar o WhatsApp, você será direcionado ao serviço de mensagens, onde poderá decidir se deseja enviar sua mensagem. O tratamento da conversa segue as práticas da plataforma e da Cherry Detail Studio.</p><h2>Dados de navegação</h2><p>O funcionamento técnico da hospedagem pode registrar dados necessários à entrega e segurança do site, como endereço IP e horário da solicitação. O mapa incorporado é fornecido pelo Google Maps. Ao carregá-lo, seu navegador se conecta ao Google, que pode tratar dados de navegação conforme sua própria política de privacidade. A Cherry não utiliza ferramentas próprias de publicidade nesta versão.</p><h2>Fale conosco</h2><p>Para dúvidas sobre suas informações, entre em contato pelo telefone {business.phoneDisplay}.</p></div></section></>; }
