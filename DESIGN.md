@@ -44,3 +44,9 @@ Site editorial para estética automotiva premium em Jacupiranga. O cuidado em ca
 - Hero e cinco serviços com carros comuns no Brasil; rampa apenas na lavagem premium. Ferramentas e retrato de Sandro também no ambiente oficial.
 - Cenas recriadas continuam ilustrativas; não representam comprovação de serviços executados. Preservar identidade do fundador e logo oficial.
 - WebP otimizado, imagens responsivas, carregamento prioritário somente acima da dobra.
+
+## Fachada e recepção — revisão solicitada
+- Retrato de Sandro restaurado à versão anterior em alessandro-portrait.webp, sem nova edição.
+- Seção de boas-vindas com fotografia tratada da fachada oficial: preservar arquitetura, letreiro e portões; remover interface, pessoas e balões.
+- Selo editorial Novo espaço / Jacupiranga · SP, sem aparência de certificação. Diferenciais reais: hora marcada, cuidado individual e leva e traz local.
+- Componente StudioIntroduction isolado com CSS Module; imagem responsiva lazy-loaded e layout empilhado até 860 px.
