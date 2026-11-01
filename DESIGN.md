@@ -56,3 +56,10 @@ Site editorial para estética automotiva premium em Jacupiranga. O cuidado em ca
 - 18 serviços com descrições, duração e valores por porte/fixos extraídos das janelas públicas da agenda; preços consultados em 01/11/2026, não sincronizados automaticamente. Confirmar classificação, condições e valor final na agenda/avaliação.
 - Catálogo em grupos com details/summary nativos, funcional sem JavaScript; preços também nas páginas dos serviços em destaque.
 - Preservar todos os visuais aprovados, retrato anterior e fachada. Sem novas bibliotecas. Dados em lib/catalog.ts, componentes server e CSS Module.
+
+## Revisão visual vigente — sem selo na fachada
+- Remover completamente o selo Novo espaço/Jacupiranga da fotografia e seus estilos.
+- Botões com raio de 8 px e espaçamento entre ações; ícone de agenda com gap único.
+- Controle de movimento alinhado à esquerda, longe da ação flutuante. Fotos de serviço em 3:2 (premium 4:3), com legendas legíveis.
+- Respiro de seções padronizado: 110 px desktop / 75 px móvel; páginas de serviço com cabeçalho e transição para fotografia mais compactos.
+- Foco explícito no menu e no catálogo; preços e header ajustados para telas estreitas de 320 px.

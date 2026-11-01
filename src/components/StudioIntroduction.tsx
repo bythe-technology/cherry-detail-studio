@@ -15,9 +15,8 @@ export function StudioIntroduction() {
         <figure className={styles.figure}>
           <div className={styles.photo}>
             <Image src="/fachada-oficial.webp" alt="Fachada oficial da Cherry Detail Studio, com letreiro preto e dourado e portões abertos; fotografia tratada digitalmente" fill sizes="(max-width: 860px) 100vw, 55vw" />
-            <div className={styles.seal}><span>Cherry Detail Studio</span><strong>Novo espaço</strong><span>Jacupiranga · SP</span></div>
           </div>
-          <figcaption>Nosso endereço. Nossa identidade. Foto da fachada com tratamento digital.</figcaption>
+          <figcaption>Fachada da Cherry Detail Studio. Foto com tratamento digital.</figcaption>
         </figure>
         <div className={styles.copy}>
           <p className="section-intro">De portas abertas em Jacupiranga</p>

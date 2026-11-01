@@ -153,7 +153,7 @@ export const catalogServices: CatalogService[] = [
   },
   {
     "id": "tratamento-de-vidros-29f0",
-    "title": "Tratamento de Vidros",
+    "title": "Tratamento de vidros",
     "group": "Acabamentos",
     "duration": "1h30min",
     "description": "Limpeza técnica e descontaminação dos vidros, seguida da aplicação de produto cristalizador que proporciona efeito hidrofóbico, repelindo a água e melhorando a visibilidade durante a condução, principalmente em dias de chuva.",
@@ -187,7 +187,7 @@ export const catalogServices: CatalogService[] = [
   },
   {
     "id": "detalhamento-de-caixa-de-rodas-protecao-15f3",
-    "title": "Detalhamento de caixa de Rodas + proteção",
+    "title": "Detalhamento de caixas de rodas + proteção",
     "group": "Acabamentos",
     "duration": "1h30min",
     "description": "Limpeza profunda das caixas de rodas, removendo barro, graxa e sujeiras impregnadas. Após a limpeza, é aplicado produto específico para condicionamento e proteção das superfícies, proporcionando melhor acabamento e conservação. Observação: O valor poderá variar de acordo com o nível de sujidade do veículo.",
@@ -221,7 +221,7 @@ export const catalogServices: CatalogService[] = [
   },
   {
     "id": "descontaminacao-revitalizacao-de-plasticos-externos-75d6",
-    "title": "Descontaminação + Revitalização de plásticos externos",
+    "title": "Descontaminação + revitalização de plásticos externos",
     "group": "Acabamentos",
     "duration": "1h30min",
     "description": "Limpeza técnica com utilização de APC (limpador multiuso) específico para plásticos, auxiliando na remoção de sujeiras impregnadas e resíduos acumulados. Após a descontaminação, é aplicado um condicionador protetor que realça a aparência dos plásticos e ajuda a protegê-los contra o ressecamento e a ação dos agentes externos.",
@@ -284,7 +284,7 @@ export const catalogServices: CatalogService[] = [
   },
   {
     "id": "lavagem-de-motor-a-vapor-347e",
-    "title": "Lavagem de motor a Vapor",
+    "title": "Lavagem de motor a vapor",
     "group": "Motor",
     "duration": "2h30min",
     "description": "Limpeza técnica do compartimento do motor utilizando vapor e produtos específicos, auxiliando na remoção de graxa, óleos e sujeiras impregnadas. O processo permite uma limpeza mais controlada, alcançando áreas de difícil acesso e proporcionando melhor acabamento e conservação dos componentes. Observação: Serviço realizado mediante avaliação prévia das condições do motor e de seus componentes.",

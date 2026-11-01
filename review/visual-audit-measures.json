@@ -1,0 +1,135 @@
+{
+  "initial": [
+    {
+      "route": "/",
+      "brokenImages": 0,
+      "documentWidth": 305,
+      "viewport": 320
+    },
+    {
+      "route": "/servicos/higienizacao-de-estofados/",
+      "brokenImages": 0,
+      "documentWidth": 326,
+      "viewport": 320
+    },
+    {
+      "route": "/servicos/polimento-tecnico/",
+      "brokenImages": 0,
+      "documentWidth": 305,
+      "viewport": 320
+    },
+    {
+      "route": "/servicos/lavagem-premium/",
+      "brokenImages": 0,
+      "documentWidth": 305,
+      "viewport": 320
+    },
+    {
+      "route": "/servicos/lavagem-de-motor/",
+      "brokenImages": 0,
+      "documentWidth": 305,
+      "viewport": 320
+    },
+    {
+      "route": "/servicos/outros-servicos/",
+      "brokenImages": 0,
+      "documentWidth": 305,
+      "viewport": 320
+    },
+    {
+      "route": "/privacidade/",
+      "brokenImages": 0,
+      "documentWidth": 305,
+      "viewport": 320
+    },
+    {
+      "route": "/",
+      "brokenImages": 0,
+      "documentWidth": 753,
+      "viewport": 768
+    },
+    {
+      "route": "/servicos/higienizacao-de-estofados/",
+      "brokenImages": 0,
+      "documentWidth": 753,
+      "viewport": 768
+    },
+    {
+      "route": "/servicos/polimento-tecnico/",
+      "brokenImages": 0,
+      "documentWidth": 753,
+      "viewport": 768
+    },
+    {
+      "route": "/servicos/lavagem-premium/",
+      "brokenImages": 0,
+      "documentWidth": 753,
+      "viewport": 768
+    },
+    {
+      "route": "/servicos/lavagem-de-motor/",
+      "brokenImages": 0,
+      "documentWidth": 753,
+      "viewport": 768
+    },
+    {
+      "route": "/servicos/outros-servicos/",
+      "brokenImages": 0,
+      "documentWidth": 753,
+      "viewport": 768
+    },
+    {
+      "route": "/privacidade/",
+      "brokenImages": 0,
+      "documentWidth": 753,
+      "viewport": 768
+    },
+    {
+      "route": "/",
+      "brokenImages": 0,
+      "documentWidth": 1425,
+      "viewport": 1440
+    },
+    {
+      "route": "/servicos/higienizacao-de-estofados/",
+      "brokenImages": 0,
+      "documentWidth": 1425,
+      "viewport": 1440
+    },
+    {
+      "route": "/servicos/polimento-tecnico/",
+      "brokenImages": 0,
+      "documentWidth": 1425,
+      "viewport": 1440
+    },
+    {
+      "route": "/servicos/lavagem-premium/",
+      "brokenImages": 0,
+      "documentWidth": 1425,
+      "viewport": 1440
+    },
+    {
+      "route": "/servicos/lavagem-de-motor/",
+      "brokenImages": 0,
+      "documentWidth": 1425,
+      "viewport": 1440
+    },
+    {
+      "route": "/servicos/outros-servicos/",
+      "brokenImages": 0,
+      "documentWidth": 1425,
+      "viewport": 1440
+    },
+    {
+      "route": "/privacidade/",
+      "brokenImages": 0,
+      "documentWidth": 1425,
+      "viewport": 1440
+    }
+  ],
+  "correction": {
+    "route": "/servicos/higienizacao-de-estofados/",
+    "viewport": 320,
+    "documentWidth": 305
+  }
+}
