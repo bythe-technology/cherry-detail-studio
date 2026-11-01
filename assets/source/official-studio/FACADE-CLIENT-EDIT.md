@@ -1,0 +1,6 @@
+# Nova fotografia escolhida pelo cliente
+
+Original: fachada-cliente-original.png. Editada com image_gen integrado; otimizada em public/fachada-inauguracao.webp. PNG gerado: exec-05c97415-b44d-4e06-bf8a-f00b57aa44dd.png.
+
+Prompt:
+Precise photographic retouch of the supplied image. Change ONLY these areas: remove the large utility pole in the left foreground and its attached cable clutter; improve the rough asphalt street surface and broken curb naturally, keeping asphalt, sidewalk and curb realistic and same geometry; improve the cloudy sky with a natural soft blue sky and gentle white clouds, consistent daytime lighting. Remove overhead utility wires against sky as part of cleaning sky/pole clutter. CRITICAL: preserve the actual storefront PIXEL-FAITHFULLY wherever possible: same black gold original sign and exact lettering, existing white window grille, metal gates positions, black/gold balloon arch, all people inside in same positions and clothes, plant, walls, indoor lights and real modest architecture. Do NOT redesign the shop, replace sign/logo, remove balloons or people, add cars, change facade materials or invent lights. Reconstruct only small parts occluded by removed pole to match surroundings. Preserve camera angle and portrait framing, no crop. No added text, no badges, no watermark.

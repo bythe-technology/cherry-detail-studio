@@ -15,7 +15,7 @@ export function StudioIntroduction() {
       <div className={`shell ${styles.grid}`}>
         <figure className={styles.figure}>
           <div className={styles.photo}>
-            <Image src="/fachada-oficial.webp" alt="Fachada oficial da Cherry Detail Studio, com letreiro preto e dourado e portões abertos; fotografia tratada digitalmente" fill sizes="(max-width: 860px) 100vw, 55vw" />
+            <Image src="/fachada-inauguracao.webp" alt="Foto da fachada da Cherry Detail Studio na inauguração, com portões abertos e arco de balões preto e dourado; céu e rua retocados" fill sizes="(max-width: 860px) 100vw, 55vw" />
           </div>
           <figcaption>Fachada da Cherry Detail Studio. Foto com tratamento digital.</figcaption>
         </figure>

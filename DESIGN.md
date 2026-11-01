@@ -69,3 +69,7 @@ Site editorial para estética automotiva premium em Jacupiranga. O cuidado em ca
 - Agenda online como CTA principal em todas as seções e no botão flutuante. WhatsApp secundário, para ajuda, leva e traz e orçamento específico.
 - Catálogo com listas de inclusões e condições essenciais; dados completos preservados na camada de conteúdo e agenda. Valores e durações mantidos.
 - Sem selo sobre a fachada; identidade e retrato preservados.
+
+## Foto da fachada escolhida pelo cliente
+- Usar fachada-inauguracao.webp, baseada na nova fotografia fornecida pelo cliente. Remover poste e fios, melhorar céu e rua, preservando fachada, portões, pessoas e balões.
+- Enquadramento quadrado no desktop e no celular para preservar o letreiro, a entrada e uma faixa do céu e da rua. Sem selo.
