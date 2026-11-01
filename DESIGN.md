@@ -50,3 +50,9 @@ Site editorial para estética automotiva premium em Jacupiranga. O cuidado em ca
 - Seção de boas-vindas com fotografia tratada da fachada oficial: preservar arquitetura, letreiro e portões; remover interface, pessoas e balões.
 - Selo editorial Novo espaço / Jacupiranga · SP, sem aparência de certificação. Diferenciais reais: hora marcada, cuidado individual e leva e traz local.
 - Componente StudioIntroduction isolado com CSS Module; imagem responsiva lazy-loaded e layout empilhado até 860 px.
+
+## Agenda online e catálogo — 01/11/2026
+- Nova agenda oficial: https://minhaautoagenda.com/p/cherrydetailstudio. Agendamento online como ação principal em dourado com ícone de calendário; WhatsApp verde para dúvidas e pedidos específicos.
+- 18 serviços com descrições, duração e valores por porte/fixos extraídos das janelas públicas da agenda; preços consultados em 01/11/2026, não sincronizados automaticamente. Confirmar classificação, condições e valor final na agenda/avaliação.
+- Catálogo em grupos com details/summary nativos, funcional sem JavaScript; preços também nas páginas dos serviços em destaque.
+- Preservar todos os visuais aprovados, retrato anterior e fachada. Sem novas bibliotecas. Dados em lib/catalog.ts, componentes server e CSS Module.

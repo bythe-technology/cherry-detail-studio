@@ -4,3 +4,6 @@
 
 /* Fotografia de ferramentas no ambiente oficial substitui o recorte flutuante. */
 .kit-art{aspect-ratio:3/2;animation:none;overflow:hidden}.kit-art img{object-fit:cover;filter:none}
+
+.booking-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:#c8a360;color:#10120f;font-weight:700;line-height:1.4}.booking-button:hover{background:#ead2a0;color:#10120f}.booking-button svg{flex-shrink:0}.hero-catalog-link{display:block;width:fit-content;font-size:15px;margin-top:22px;color:#f4f1eb;text-decoration:underline;text-underline-offset:6px}.hero-catalog-link:hover{color:#e3c58b}.header-cta.booking-button{font-size:14px;padding:16px 20px;white-space:nowrap}.footer-invitation .booking-button{border-radius:8px}.header-inner nav{gap:24px}
+@media(max-width:860px){.header-cta.booking-button{padding:12px;min-width:46px;min-height:46px;margin-left:auto}.header-cta.booking-button>span{display:none}.header-inner nav{gap:20px}}
