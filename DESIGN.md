@@ -37,3 +37,10 @@ Site editorial para estética automotiva premium em Jacupiranga. O cuidado em ca
 - Fachada removida da interface; espaço ocupado pelo passo a passo real de leva e traz em Jacupiranga.
 - Textos de higienização e lavagem premium detalhados; sem promessas absolutas de eliminação de microrganismos ou recuperação do estado de novo.
 - Favicon atualizado para composição completa fiel à logo oficial.
+
+## Espaço oficial — atualização após inauguração
+- Estabelecimento inaugurado: mensagem de portas abertas, sem divulgação de evento futuro.
+- Cenas baseadas nas fotos oficiais: paredes brancas, telhado metálico preto, LEDs geométricos, piso modular preto com faixas cinza e rampa gangorra amarela. Não inventar outro estúdio.
+- Hero e cinco serviços com carros comuns no Brasil; rampa apenas na lavagem premium. Ferramentas e retrato de Sandro também no ambiente oficial.
+- Cenas recriadas continuam ilustrativas; não representam comprovação de serviços executados. Preservar identidade do fundador e logo oficial.
+- WebP otimizado, imagens responsivas, carregamento prioritário somente acima da dobra.

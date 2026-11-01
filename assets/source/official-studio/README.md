@@ -1,0 +1,1 @@
+Fotos de referência fornecidas pelo cliente após inauguração. Cenas geradas pelo image_gen integrado, preservando paredes brancas, teto metálico preto, LEDs geométricos, piso modular preto/cinza e rampa amarela. Veículos: Polo, Onix, Virtus, Tracker e Tera. Sem marcas de produtos. Prompts e saídas registrados em manifest.json. Imagens geradas não são prova de serviços executados.
