@@ -63,3 +63,9 @@ Site editorial para estética automotiva premium em Jacupiranga. O cuidado em ca
 - Controle de movimento alinhado à esquerda, longe da ação flutuante. Fotos de serviço em 3:2 (premium 4:3), com legendas legíveis.
 - Respiro de seções padronizado: 110 px desktop / 75 px móvel; páginas de serviço com cabeçalho e transição para fotografia mais compactos.
 - Foco explícito no menu e no catálogo; preços e header ajustados para telas estreitas de 320 px.
+
+## Conteúdo essencial e agenda como prioridade
+- Textos institucionais reduzidos a uma frase e listas curtas. Ícones lineares discretos com texto; decorativos para leitores de tela.
+- Agenda online como CTA principal em todas as seções e no botão flutuante. WhatsApp secundário, para ajuda, leva e traz e orçamento específico.
+- Catálogo com listas de inclusões e condições essenciais; dados completos preservados na camada de conteúdo e agenda. Valores e durações mantidos.
+- Sem selo sobre a fachada; identidade e retrato preservados.

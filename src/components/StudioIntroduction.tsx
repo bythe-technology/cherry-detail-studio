@@ -1,11 +1,12 @@
 import Image from 'next/image';
-import { ContactButton } from './ContactButton';
+import { BookingButton } from './BookingButton';
+import { InterfaceIcon } from './InterfaceIcon';
 import styles from './StudioIntroduction.module.css';
 
 const highlights = [
-  { title: 'Hora marcada', detail: 'Tempo dedicado ao seu veículo.' },
-  { title: 'Cuidado individual', detail: 'Procedimentos escolhidos após avaliação.' },
-  { title: 'Leva e traz local', detail: 'Sem taxa em Jacupiranga, mediante combinação.' },
+  { title: 'Hora marcada', icon: 'calendar' as const },
+  { title: 'Cuidado individual', icon: 'shield' as const },
+  { title: 'Leva e traz grátis na cidade*', icon: 'car' as const },
 ] as const;
 
 export function StudioIntroduction() {
@@ -20,11 +21,11 @@ export function StudioIntroduction() {
         </figure>
         <div className={styles.copy}>
           <p className="section-intro">De portas abertas em Jacupiranga</p>
-          <h2 id="studio-heading">Um novo endereço para cuidar do seu carro.</h2>
-          <p>Conheça a Cherry Detail Studio: um espaço dedicado à estética automotiva, onde cada veículo recebe atenção individual, da chegada ao acabamento.</p>
-          <ul className={styles.highlights}>{highlights.map(({ title, detail }) => <li key={title}><strong>{title}</strong><span>{detail}</span></li>)}</ul>
-          <ContactButton>Conhecer os serviços pelo WhatsApp</ContactButton>
-          <p className={styles.address}>Rua Mangueira, 177 · Flor da Vila</p>
+          <h2 id="studio-heading">Conheça a Cherry.</h2>
+          <p>Estética automotiva em Jacupiranga, com atenção a cada veículo.</p>
+          <ul className={styles.highlights}>{highlights.map(({ title, icon }) => <li key={title}><InterfaceIcon name={icon}/><strong>{title}</strong></li>)}</ul>
+          <BookingButton/>
+          <p className={styles.address}>*Leva e traz mediante combinação. Rua Mangueira, 177.</p>
         </div>
       </div>
     </section>

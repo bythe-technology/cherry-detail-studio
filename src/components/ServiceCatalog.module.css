@@ -33,3 +33,5 @@
 @media(max-width:380px){.item summary{grid-template-columns:1fr auto 18px;gap:8px}.title{font-size:15px}.from{font-size:17px}.detailPrices .prices{grid-template-columns:1fr}.detailPrices .prices>div{display:flex;justify-content:space-between;gap:12px;align-items:center}.detailPrices .prices dd{margin:0}.prices dd{font-size:16px}}
 
 .heading .section-intro{color:#c8a360;font-size:15px;margin-bottom:20px}
+
+.title small{display:flex;align-items:center;gap:7px}.title small svg{flex-shrink:0}.body :global(.essential-list){margin:0}.body :global(.essential-list li){font-size:15px;line-height:1.65}.condition{font-size:13px;line-height:1.65;color:#bdbfb3;margin:20px 0 0}.heading h2{font-size:clamp(2.6rem,4.2vw,4.3rem)}

@@ -2,7 +2,7 @@
 export const agendaUrl = 'https://minhaautoagenda.com/p/cherrydetailstudio';
 export const catalogCheckedAt = '2026-11-01';
 export interface CatalogPrice { category: string; value: number }
-export interface CatalogService { id: string; title: string; group: string; duration: string; description: string; prices: CatalogPrice[] }
+export interface CatalogService { id: string; title: string; group: string; duration: string; description: string; highlights: string[]; condition: string; prices: CatalogPrice[] }
 export const catalogServices: CatalogService[] = [
   {
     "id": "polimento-tecnico-141f",
@@ -23,7 +23,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 1400.0
       }
-    ]
+    ],
+    "highlights": [
+      "Redução de riscos superficiais e marcas de lavagem.",
+      "Mais brilho e profundidade de cor."
+    ],
+    "condition": "Sujeito à avaliação da pintura."
   },
   {
     "id": "vitrificacao-de-pintura-1421",
@@ -44,7 +49,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 800.0
       }
-    ]
+    ],
+    "highlights": [
+      "Revestimento cerâmico para proteger a pintura.",
+      "Brilho, efeito hidrofóbico e manutenção facilitada."
+    ],
+    "condition": ""
   },
   {
     "id": "higienizacao-interna-com-remocao-de-bancos-1423",
@@ -65,7 +75,13 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 750.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza profunda com retirada dos bancos.",
+      "Acesso a cantos, carpetes e áreas difíceis.",
+      "Remoção de sujeiras e odores do interior."
+    ],
+    "condition": ""
   },
   {
     "id": "higienizacao-interna-sem-remocao-de-bancos-2b71",
@@ -86,7 +102,13 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 480.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza de bancos, carpetes e superfícies internas.",
+      "Sem retirada dos bancos.",
+      "Remoção de sujeiras e odores."
+    ],
+    "condition": ""
   },
   {
     "id": "lavagem-detalhada-5bcf",
@@ -107,7 +129,13 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 170.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza externa e interna, cantos e frestas.",
+      "Limpeza superficial de bancos e carpetes.",
+      "Cera e acabamento convencional das rodas."
+    ],
+    "condition": "Não inclui retirada das rodas ou hidratação de plásticos e borrachas. Remoção de frisos e acabamentos: avaliação e cobrança à parte."
   },
   {
     "id": "lavagem-premium-a776",
@@ -128,7 +156,14 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 320.0
       }
-    ]
+    ],
+    "highlights": [
+      "Pré-lavagem, snow foam e pincéis macios.",
+      "Remoção das rodas e limpeza das caixas de rodas.",
+      "Condicionamento de plásticos, borrachas e pneus.",
+      "Cera premium para brilho e proteção."
+    ],
+    "condition": ""
   },
   {
     "id": "lavagem-de-chassis-dfd9",
@@ -149,7 +184,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 200.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza da parte inferior do veículo.",
+      "Remoção de barro, terra e resíduos de estrada."
+    ],
+    "condition": "Valor sujeito ao nível de sujeira e à avaliação prévia."
   },
   {
     "id": "tratamento-de-vidros-29f0",
@@ -170,7 +210,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 150.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza técnica e descontaminação dos vidros.",
+      "Cristalização com efeito repelente à água."
+    ],
+    "condition": ""
   },
   {
     "id": "polimento-de-farois-par-4301",
@@ -183,7 +228,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Valor único",
         "value": 250.0
       }
-    ]
+    ],
+    "highlights": [
+      "Recuperação da transparência do par de faróis.",
+      "Redução do amarelamento e da opacidade."
+    ],
+    "condition": "Recuperação sujeita à avaliação dos faróis."
   },
   {
     "id": "detalhamento-de-caixa-de-rodas-protecao-15f3",
@@ -204,7 +254,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 120.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza profunda das caixas de rodas.",
+      "Condicionamento e proteção das superfícies."
+    ],
+    "condition": "Valor pode variar conforme o nível de sujeira."
   },
   {
     "id": "polimento-de-farois-protecao-vitrificacao-5bf7",
@@ -217,7 +272,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Valor único",
         "value": 330.0
       }
-    ]
+    ],
+    "highlights": [
+      "Polimento do par de faróis.",
+      "Vitrificação para ajudar a preservar a transparência."
+    ],
+    "condition": "Recuperação sujeita à avaliação dos faróis."
   },
   {
     "id": "descontaminacao-revitalizacao-de-plasticos-externos-75d6",
@@ -238,7 +298,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 130.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza dos plásticos externos.",
+      "Condicionamento e proteção contra ressecamento."
+    ],
+    "condition": ""
   },
   {
     "id": "descontaminacao-revitalizacao-de-plasticos-internos-abd3",
@@ -259,7 +324,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 170.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza de plásticos internos, cantos e frestas.",
+      "Condicionamento para renovar o acabamento."
+    ],
+    "condition": ""
   },
   {
     "id": "descontaminacao-a-vapor-2x-mais-limpeza-revitalizacao-de-plasticos-e2e0",
@@ -280,7 +350,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 200.0
       }
-    ]
+    ],
+    "highlights": [
+      "Vapor e limpador específico para sujeiras impregnadas.",
+      "Detalhamento com pincéis e revitalização dos plásticos."
+    ],
+    "condition": ""
   },
   {
     "id": "lavagem-de-motor-a-vapor-347e",
@@ -301,7 +376,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 200.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza do motor com vapor e produtos específicos.",
+      "Remoção controlada de óleo, graxa e sujeiras."
+    ],
+    "condition": "Avaliação prévia do motor e dos componentes."
   },
   {
     "id": "lavagem-de-motor-5020",
@@ -322,7 +402,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 250.0
       }
-    ]
+    ],
+    "highlights": [
+      "Limpeza técnica do compartimento do motor.",
+      "Remoção de óleo, graxa e resíduos acumulados."
+    ],
+    "condition": "Avaliação prévia do motor e dos componentes."
   },
   {
     "id": "descontaminacao-de-pintura-protecao-de-pintura-f141",
@@ -343,7 +428,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Grande",
         "value": 200.0
       }
-    ]
+    ],
+    "highlights": [
+      "Remoção de impurezas aderidas à pintura.",
+      "Proteção com brilho e efeito hidrofóbico."
+    ],
+    "condition": ""
   },
   {
     "id": "polimento-comercial-1-etapa-5e28",
@@ -356,7 +446,12 @@ export const catalogServices: CatalogService[] = [
         "category": "Valor único",
         "value": 500.0
       }
-    ]
+    ],
+    "highlights": [
+      "Polimento em uma etapa para renovar o brilho.",
+      "Redução de marcas superficiais."
+    ],
+    "condition": "Não inclui correção profunda de riscos. Resultado depende da pintura."
   }
 ];
 
